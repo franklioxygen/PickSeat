@@ -1,0 +1,28 @@
+.seatState0,
+.seatState1,
+.seatState2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid darkgray;
+}
+
+.seatState0:hover,
+.seatState1:hover,
+.seatState2:hover {
+    border: 1px solid red;
+}
+
+.seatState0 {
+    background-color: gray;
+}
+
+.seatState1 {
+    background-color: lightskyblue;
+}
+
+.seatState2 {
+    background-color: darkblue;
+}
