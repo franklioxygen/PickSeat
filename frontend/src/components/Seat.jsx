@@ -8,18 +8,29 @@ class Seat extends React.Component {
 
   changeSeatState() {
     if (this.props.seatState !== 1) {
-      this.props.pickSeat(this.props.id);
-      this.setState({ seatState: this.props.seatState ? 0 : 2 });
+      if (this.props.seatState === 0 && this.props.currentUserSeatAmount > 9) {
+        alert(
+          "You reached 10 slots limit, please deselect before select new seat."
+        );
+      } else {
+        this.props.pickSeat(this.props.id);
+        this.setState({ seatState: this.props.seatState ? 0 : 2 });
+      }
     }
   }
 
   render() {
+    let newLine = "";
+    if ((this.props.index + 1) % 10 === 0) newLine = <br />;
     return (
-      <div
-        onClick={this.changeSeatState}
-        className={"seatState" + this.props.seatState}
-        id={this.props.seatID}
-      ></div>
+      <span>
+        <div
+          onClick={this.changeSeatState}
+          className={"seatState" + this.props.seatState}
+          id={this.props.seatID}
+        ></div>
+        {newLine}
+      </span>
     );
   }
 }

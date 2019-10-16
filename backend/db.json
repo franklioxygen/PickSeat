@@ -3,30 +3,22 @@
     {
       "id": 1,
       "username": "frank",
-      "userSeats": [
-        8,
-        29,
-        32
-      ]
+      "userSeats": [3, 4, 5]
     },
     {
       "id": 2,
       "username": "knarf",
-      "userSeats": []
+      "userSeats": [10, 20, 15]
     },
     {
       "id": 3,
       "username": "kiwi",
-      "userSeats": [
-        23,
-        24,
-        25
-      ]
+      "userSeats": [23, 24, 25]
     },
     {
       "id": 4,
       "username": "tempura",
-      "userSeats": []
+      "userSeats": [30, 35, 40]
     }
   ],
   "seats": [
@@ -40,15 +32,15 @@
     },
     {
       "id": 3,
-      "state": 0
+      "state": 1
     },
     {
       "id": 4,
-      "state": 0
+      "state": 1
     },
     {
       "id": 5,
-      "state": 0
+      "state": 1
     },
     {
       "id": 6,
@@ -60,7 +52,7 @@
     },
     {
       "id": 8,
-      "state": 1
+      "state": 0
     },
     {
       "id": 9,
@@ -68,7 +60,7 @@
     },
     {
       "id": 10,
-      "state": 0
+      "state": 1
     },
     {
       "id": 11,
@@ -88,7 +80,7 @@
     },
     {
       "id": 15,
-      "state": 0
+      "state": 1
     },
     {
       "id": 16,
@@ -108,7 +100,7 @@
     },
     {
       "id": 20,
-      "state": 0
+      "state": 1
     },
     {
       "id": 21,
@@ -144,11 +136,11 @@
     },
     {
       "id": 29,
-      "state": 1
+      "state": 0
     },
     {
       "id": 30,
-      "state": 0
+      "state": 1
     },
     {
       "id": 31,
@@ -156,7 +148,7 @@
     },
     {
       "id": 32,
-      "state": 1
+      "state": 0
     },
     {
       "id": 33,
@@ -168,7 +160,7 @@
     },
     {
       "id": 35,
-      "state": 0
+      "state": 1
     },
     {
       "id": 36,
@@ -188,7 +180,7 @@
     },
     {
       "id": 40,
-      "state": 0
+      "state": 1
     }
   ]
 }
