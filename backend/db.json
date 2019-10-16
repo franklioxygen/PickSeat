@@ -3,22 +3,38 @@
     {
       "id": 1,
       "username": "frank",
-      "userSeats": [3, 4, 5]
+      "userSeats": [
+        3,
+        4,
+        5
+      ]
     },
     {
       "id": 2,
       "username": "knarf",
-      "userSeats": [10, 20, 15]
+      "userSeats": [
+        10,
+        20,
+        15
+      ]
     },
     {
       "id": 3,
       "username": "kiwi",
-      "userSeats": [23, 24, 25]
+      "userSeats": [
+        23,
+        24,
+        25
+      ]
     },
     {
       "id": 4,
       "username": "tempura",
-      "userSeats": [30, 35, 40]
+      "userSeats": [
+        30,
+        35,
+        40
+      ]
     }
   ],
   "seats": [
