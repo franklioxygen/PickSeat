@@ -5,16 +5,11 @@ class Seat extends React.Component {
     super(props);
     this.changeSeatState = this.changeSeatState.bind(this);
   }
-  state = {
-    id: this.props.id,
-    seatState: this.props.seatState
-    // 0 is not selected, 1 is selected by others, 2 is selected by userself
-  };
 
   changeSeatState() {
-    if (this.state.seatState !== 1) {
-      this.props.pickSeat(this.state.id);
-      this.setState({ seatState: this.state.seatState ? 0 : 2 });
+    if (this.props.seatState !== 1) {
+      this.props.pickSeat(this.props.id);
+      this.setState({ seatState: this.props.seatState ? 0 : 2 });
     }
   }
 
@@ -22,8 +17,8 @@ class Seat extends React.Component {
     return (
       <div
         onClick={this.changeSeatState}
-        className={"seatState" + this.state.seatState}
-        id={this.state.seatID}
+        className={"seatState" + this.props.seatState}
+        id={this.props.seatID}
       ></div>
     );
   }

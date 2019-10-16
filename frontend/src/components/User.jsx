@@ -3,7 +3,10 @@ class User extends React.Component {
   render() {
     return (
       <span>
-        {this.props.username},{this.props.selectedSeats}
+        {this.props.username} Selected:
+        {this.props.userSeats.map(seat => (
+          <span key={seat}>{seat} </span>
+        ))}
       </span>
     );
   }
