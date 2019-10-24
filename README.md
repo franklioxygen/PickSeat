@@ -11,19 +11,10 @@ Users can access a web app and see a grid of circles, representing stadium seats
     * Others selected seats in light blue
     * Available seats in gray
 - [x] Countdown of their selected seats out of 10
-- [ ] A running tally of number of users online (optional)
-- [x] Brief help messages to figure out the game (optional)
-- [ ] Ability to swipe on mobile and desktop to navigate the drawing (optional)
-- [ ] Zoom in and zoom out (optional)
-- [x] https://snag.gy/DZteUK.jpg as an example
-
-Tech Stack
-
-- [x] React
-- [ ] Javascript state manager
-- [x] Websockets
-- [x] Server-side Rails with ActionCable or NodeJS Express with Socket.io
-- [ ] React-Konva (optional bonus)
+- [ ] A running tally of number of users online
+- [x] Brief help messages to figure out the game
+- [ ] Ability to swipe on mobile and desktop to navigate the drawing
+- [ ] Zoom in and zoom out
 
 #NodeJS #ExpressJS #react #SocketIO #JSON-server
 
